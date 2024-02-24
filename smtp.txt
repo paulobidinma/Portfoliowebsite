@@ -1,0 +1,11 @@
+Username
+oziomaobidinma3@gmail.com
+Password
+A30BA2C428F180CFFD7F0A0EDD92D7E30EB5
+
+Server
+smtp.elasticemail.com
+Port
+2525
+
+Your security token is bd845e55-4c2f-4a17-8ecf-53a0bd6b2121 Please take note of this.
