@@ -1,7 +1,7 @@
 import React from 'react'
 import { AiOutlineGlobal } from "react-icons/ai";
-import { FaCode} from "react-icons/fa";
-import { CiServer} from "react-icons/ci";
+import { FaCode,FaPencilRuler} from "react-icons/fa";
+// import { CiServer} from "react-icons/ci";
 import Title from '../layouts/Title';
 import Card from './Card';
 
@@ -14,14 +14,14 @@ const Features = () => {
       <Title title="Features" des="What I Do" />
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-20">
         <Card
-          title="Full-stack Development"
+          title="Full-stack Web Development"
           des="Creating seamless, end-to-end web solutions."
           icon={<AiOutlineGlobal />}
         />
         <Card
-          title="Backend Development"
-          des="Building robust server-side applications."
-          icon={<CiServer/>}
+          title="UI/UX Design"
+          des="Transforming ideas to aesthetically pleasing UI designs."
+          icon={<FaPencilRuler/>}
         />
         <Card
           title="Code Review and Optimization"
