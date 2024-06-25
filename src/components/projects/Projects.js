@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree } from "../../assets/index";
+import { projectOne, projectTwo, projectThree, projectFour, projectFive, projectSix } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -38,6 +38,30 @@ const Projects = () => {
           src={projectThree}
           githubLink="https://github.com/paulobidinma/React-Admin-Dashboard-Master"
           websiteLink="https://react-admin-dashboard-master-nu.vercel.app/"
+        />
+
+        <ProjectsCard
+          title="Car Rental"
+          des="This is a website for renting cars built with ReactJS, Vite, Bootstrap and TailwindCss."
+          src={projectFour}
+          githubLink="https://github.com/paulobidinma/React-Car-Rental"
+          websiteLink="https://react-car-rental-ochre.vercel.app/"
+        />
+
+        <ProjectsCard
+          title="Banking Website"
+          des="This is a website that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances altogethers built with Next.js, TypeScript, Appwrite and TailwindCss."
+          src={projectFive}
+          githubLink="https://github.com/paulobidinma/BankingApp"
+          websiteLink="https://banking-app-sage.vercel.app/"
+        />
+
+        <ProjectsCard
+          title="Car Showcase Website"
+          des="This is a website for renting cars built with Next.js, TypeScript and TailwindCss."
+          src={projectSix}
+          githubLink="https://github.com/paulobidinma/Car-Showcase-Website"
+          websiteLink="https://car-showcase-website-theta.vercel.app/"
         />
       
       </div>
