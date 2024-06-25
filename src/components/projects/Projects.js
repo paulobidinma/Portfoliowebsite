@@ -50,7 +50,7 @@ const Projects = () => {
 
         <ProjectsCard
           title="Banking Website"
-          des="This is a website that connects to multiple bank accounts, displays transactions in real-time, allows users to transfer money to other platform users, and manages their finances altogethers built with Next.js, TypeScript, Appwrite and TailwindCss."
+          des="This is a website for banking built with Next.js, TypeScript, Appwrite and TailwindCss."
           src={projectFive}
           githubLink="https://github.com/paulobidinma/BankingApp"
           websiteLink="https://banking-app-sage.vercel.app/"
@@ -58,7 +58,7 @@ const Projects = () => {
 
         <ProjectsCard
           title="Car Showcase Website"
-          des="This is a website for renting cars built with Next.js, TypeScript and TailwindCss."
+          des="This is a website for displaying car models built with Next.js, TypeScript and TailwindCss."
           src={projectSix}
           githubLink="https://github.com/paulobidinma/Car-Showcase-Website"
           websiteLink="https://car-showcase-website-theta.vercel.app/"
