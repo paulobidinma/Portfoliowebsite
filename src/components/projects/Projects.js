@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree, projectFour, projectFive, projectSix } from "../../assets/index";
+import { projectOne, projectTwo, projectThree, projectFour, projectFive, projectSix, projectSeven, projectEight, projectNine } from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -62,6 +62,30 @@ const Projects = () => {
           src={projectSix}
           githubLink="https://github.com/paulobidinma/Car-Showcase-Website"
           websiteLink="https://car-showcase-website-theta.vercel.app/"
+        />
+
+        <ProjectsCard
+          title="Next pg Ecommerce Website"
+          des="Full-ECommerce Website By Next.js, Drizzle, PostgreSQL ORM and Shadcn."
+          src={projectSeven}
+          githubLink="https://github.com/paulobidinma/next-pg-shadcn-ecommerce"
+          websiteLink="https://next-pg-shadcn-ecommerce.vercel.app/"
+        />
+
+        <ProjectsCard
+          title="Merch Online Store/Website (Contract)"
+          des="This is a wordpress website for selling print products, from clothing to merchandise."
+          src={projectEight}
+          githubLink=""
+          websiteLink="https://royalstyles.net/"
+        />
+
+        <ProjectsCard
+          title="Cleaning Services Website (Contract)"
+          des="This is a wordpress website for an award-winning cleaning company that offers you the best yet affordable cleaning services for residential and commercial clients."
+          src={projectNine}
+          githubLink=""
+          websiteLink="https://joyce-clean.de/"
         />
       
       </div>
