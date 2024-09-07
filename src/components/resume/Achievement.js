@@ -16,29 +16,41 @@ const Achievement = () => {
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
           <ResumeCard
-            title= "B.SC Computer Science"
-            subTitle="Bowen University, Iwo"
-            des="2018 - 2022"
+            title="Meta Back-end Developer Certificate"
+            subTitle="Meta"
+            result="Success"
+            des="Issued May 2024"
+          />
+          <ResumeCard
+            title="Professional Scrum Master I (PSM I)"
+            subTitle="Scrum.org"
+            result="Success"
+            des="Issued March 2024"
           />
           <ResumeCard
             title="Programming in Python"
             subTitle="Meta "
             result="Success"
-            des="Credential ID : YDLLGYM37N9G"
-          />
-          <ResumeCard
-            title="Java Programming | Machine Learning | Oracle SQL fundamentals "
-            subTitle="New Horizons Computer Learning Centers"
-            result="Success"
-            des="Credential ID : 87637"
+            des="Issued Febuary 2024"
           />
           <ResumeCard
             title="Google Project Management Certificate"
             subTitle="Coursera"
             result="Success"
-            des="Credential ID : https://www.credly.com/go/J3vYdHJ0"
+            des="Issued January 2024"
           />
-        </div>
+          <ResumeCard
+            title= "B.SC Computer Science"
+            subTitle="Bowen University, Iwo"
+            des="2018 - 2022"
+          />
+          <ResumeCard
+            title="Java Programming | Machine Learning | Oracle SQL fundamentals "
+            subTitle="New Horizons Computer Learning Centers"
+            result="Success"
+            des="Issued November 2022"
+          />
+          </div>
       </div>
     </motion.div>
   );

@@ -5,7 +5,7 @@ import { FaLinkedinIn, FaGithub, FaEnvelope  } from "react-icons/fa";
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Programmer.", "Web Developer.", "Backend Developer."],
+      words: ["Programmer.", "Web Developer.", "Front-end Developer.", "Wordpress Developer."],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,

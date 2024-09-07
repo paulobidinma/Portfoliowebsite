@@ -16,6 +16,18 @@ const Experience = () => {
           </div>
           <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
             <ResumeCard
+              title="Web Developer"
+              subTitle="ET-Errand & Cargo Service Remote - (July 2024 - Present)"
+              result="Oman"
+              des="in charge of our website’s building and development of  Web apps and all website maintenance."
+            />
+            <ResumeCard
+              title="UI/UX designer intern"
+              subTitle="X CAPITAL Morocco - (July 2024 - Present)"
+              result="Oman"
+              des=""
+            />
+            <ResumeCard
               title="NYSC Intern"
               subTitle="Securities and Exchange Commission(SEC) Nigeria - (January 2023 - November 2023)"
               des="Collaborated with the Applications Development team to design, develop, test, and maintain software applications such as SEC CRM (Customer Relationship Manager) and HumanSoft. 
