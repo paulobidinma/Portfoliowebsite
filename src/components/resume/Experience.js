@@ -29,7 +29,7 @@ const Experience = () => {
             />
             <ResumeCard
               title="UI/UX designer intern"
-              subTitle="X CAPITAL Morocco - (July 2024 - Present)"
+              subTitle="X CAPITAL Morocco - (July 2024 - November 2024)"
               result="Oman"
               des=""
             />
