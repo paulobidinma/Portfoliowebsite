@@ -5,7 +5,7 @@ import { FaLinkedinIn, FaGithub, FaEnvelope  } from "react-icons/fa";
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
-      words: ["Programmer.", "Web Developer.", "Front-end Developer.", "Wordpress Developer."],
+      words: ["Programmer.", "Web Developer.", "UI/UX Designer", "Wordpress Developer."],
       loop: true,
       typeSpeed: 20,
       deleteSpeed: 10,
@@ -15,7 +15,7 @@ const LeftBanner = () => {
     <div className="w-full  flex flex-col gap-20">
       <div className="flex flex-col gap-5">
         <h4 className=" text-lg font-normal">WELCOME TO MY PORTFOLIO</h4>
-        <h1 className="text-7xl font-bold text-white">
+        <h1 className="text-6xl font-bold text-white">
           Hi, I'm <span className="text-designColor capitalize">Paul Obidinma</span>
         </h1>
         <h2 className="text-4xl font-bold text-white">
