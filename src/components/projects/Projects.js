@@ -17,11 +17,11 @@ const Projects = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
         <ProjectsCard
-          title="FLIGHT BOOKING WEBSITE"
+          title="Netflix Clone"
           des="This is a website for a luxury travel agency built with ReactJS, Vite and TailwindCss."
           src={projectOne}
-          githubLink="https://github.com/paulobidinma/Flight-booking-react"
-          websiteLink="https://flight-booking-react.vercel.app/"
+          githubLink="https://vercel.com/paul-obidinmas-projects/netflix-clone"
+          websiteLink="https://clone-vert-nu.vercel.app/"
 
         />
         <ProjectsCard
@@ -33,11 +33,11 @@ const Projects = () => {
         />
         
         <ProjectsCard
-          title="Admin Dashboard"
-          des="This is a analytics dashboard built with ReactJS, Vite and TailwindCss."
+          title="Invoice Platform"
+          des="This is a Invoice Platform using Next.js, Mailtrap, Auth.js, Tailwind"
           src={projectThree}
-          githubLink="https://github.com/paulobidinma/React-Admin-Dashboard-Master"
-          websiteLink="https://react-admin-dashboard-master-nu.vercel.app/"
+          githubLink="https://github.com/paulobidinma/InvoiceMarshal"
+          websiteLink="https://invoice-marshal.vercel.app/"
         />
 
         <ProjectsCard
@@ -65,11 +65,11 @@ const Projects = () => {
         />
 
         <ProjectsCard
-          title="Next pg Ecommerce Website"
-          des="Full-ECommerce Website By Next.js, Drizzle, PostgreSQL ORM and Shadcn."
+          title="Blogging SaaS application"
+          des="This is a SaaS using Next.js, Kinde-Auth, Supabase, Prisma, Stripe, and Tailwind CSS."
           src={projectSeven}
-          githubLink="https://github.com/paulobidinma/next-pg-shadcn-ecommerce"
-          websiteLink="https://next-pg-shadcn-ecommerce.vercel.app/"
+          githubLink="https://github.com/paulobidinma/BlogMarshal"
+          websiteLink="https://blog-marshal-coral.vercel.app/"
         />
 
         <ProjectsCard

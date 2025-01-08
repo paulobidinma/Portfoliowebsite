@@ -16,10 +16,16 @@ const Experience = () => {
           </div>
           <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
             <ResumeCard
+              title="Multimedia Specialist"
+              subTitle="THE CENTRESTAGE COMPANY - (January 2025 - Present)"
+              result="Oman"
+              // des="in charge of our website’s building and development of  Web apps and all website maintenance."
+            />
+            <ResumeCard
               title="Web Developer"
               subTitle="ET-Errand & Cargo Service Remote - (July 2024 - Present)"
               result="Oman"
-              des="in charge of our website’s building and development of  Web apps and all website maintenance."
+              // des="in charge of our website’s building and development of  Web apps and all website maintenance."
             />
             <ResumeCard
               title="UI/UX designer intern"
@@ -30,20 +36,21 @@ const Experience = () => {
             <ResumeCard
               title="NYSC Intern"
               subTitle="Securities and Exchange Commission(SEC) Nigeria - (January 2023 - November 2023)"
-              des="Collaborated with the Applications Development team to design, develop, test, and maintain software applications such as SEC CRM (Customer Relationship Manager) and HumanSoft. 
-              Supported the team in troubleshooting and resolving technical issues reported by users.
-              "
+              // des="Collaborated with the Applications Development team to design, develop, test, and maintain software applications such as SEC CRM (Customer Relationship Manager) and HumanSoft. 
+              // Supported the team in troubleshooting and resolving technical issues reported by users.
+              // "
+
             />
             <ResumeCard
               title="IT intern"
               subTitle="Investment and Securities Tribunal Nigeria - (September 2021 - December 2021)"
-              des={'Spearheaded the installation, maintenance, and repair of hardware and software components of the organization’s \r\n            computers and computer peripherals.\r\n            Liaised with senior colleagues for documentation, testing, implementation, and maintenance of web pages and \r\nmultimedia design using appropriate web publishing, editing, and graphic design applications.\r\n            '}
+              // des={'Spearheaded the installation, maintenance, and repair of hardware and software components of the organization’s \r\n            computers and computer peripherals.\r\n            Liaised with senior colleagues for documentation, testing, implementation, and maintenance of web pages and \r\nmultimedia design using appropriate web publishing, editing, and graphic design applications.\r\n            '}
             />
             <ResumeCard
               title="Front-end Developer Intern"
               subTitle="The Smart Hub Nigeria - (July 2020 - September 2020)"
               result="Oman"
-              des="Collaborated on a project to create a web-based medical appointment scheduling software. Managed the database of the application."
+              // des="Collaborated on a project to create a web-based medical appointment scheduling software. Managed the database of the application."
             />
           </div>
         </div>

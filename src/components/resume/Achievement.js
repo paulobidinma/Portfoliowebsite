@@ -15,6 +15,12 @@ const Achievement = () => {
           <h1 className="text-3xl md:text-4xl font-bold">Certification</h1>
         </div>
         <div className="mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <ResumeCard
+            title="BCS level 4 Certificate in IT"
+            subTitle="BCS, The Chartered Institute for IT"
+            result="Success"
+            des="Issued December 2024"
+          />
           <ResumeCard
             title="Meta Back-end Developer Certificate"
             subTitle="Meta"
@@ -26,12 +32,6 @@ const Achievement = () => {
             subTitle="Scrum.org"
             result="Success"
             des="Issued March 2024"
-          />
-          <ResumeCard
-            title="Programming in Python"
-            subTitle="Meta "
-            result="Success"
-            des="Issued Febuary 2024"
           />
           <ResumeCard
             title="Google Project Management Certificate"
