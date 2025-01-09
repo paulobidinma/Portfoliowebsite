@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTypewriter, Cursor } from "react-simple-typewriter";
 import { FaLinkedinIn, FaGithub, FaEnvelope  } from "react-icons/fa";
-// import { SiTailwindcss, SiFigma, SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss, SiFigma, SiNextdotjs, SiWordpress} from "react-icons/si";
 
 const LeftBanner = () => {
     const [text] = useTypewriter({
@@ -29,9 +29,7 @@ const LeftBanner = () => {
         <p className="text-base font-bodyFont leading-6 tracking-wide">
         I am a dedicated web developer and programmer driven by the challenge of transforming concepts into seamless digital experiences. 
         With expertise in various technologies, I prioritize clean, efficient, and maintainable code—from front-end aesthetics to back-end functionality.
-        Thriving in collaborative environments, I excel in team settings where effective communication is key. 
-        Each project is an opportunity to tackle unique challenges, utilizing a strategic approach and a passion for elegant solutions. 
-        In a rapidly evolving tech landscape, I maintain a growth mindset, constantly seeking new knowledge and skills.
+        Thriving in collaborative environments, I excel in team settings where effective communication is key.
         </p>
       </div>
       <div className="flex flex-col xl:flex-row gap-6 lgl:gap-0 justify-between">
@@ -53,7 +51,7 @@ const LeftBanner = () => {
             </a>
           </div>
         </div>
-        {/* <div>
+        <div>
           <h2 className="text-base uppercase font-titleFont mb-4">
             BEST SKILL ON
           </h2>
@@ -70,8 +68,11 @@ const LeftBanner = () => {
             <span className="bannerIcon">
               <SiFigma />
             </span>
+            <span className="bannerIcon">
+              <SiWordpress />
+            </span>
           </div>
-        </div> */}
+        </div>
       </div>
     </div>
   );
