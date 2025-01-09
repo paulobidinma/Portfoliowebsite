@@ -44,12 +44,6 @@ const Achievement = () => {
             subTitle="Bowen University, Iwo"
             des="2018 - 2022"
           />
-          <ResumeCard
-            title="Java Programming | Machine Learning | Oracle SQL fundamentals "
-            subTitle="New Horizons Computer Learning Centers"
-            result="Success"
-            des="Issued November 2022"
-          />
           </div>
       </div>
     </motion.div>
