@@ -1,6 +1,6 @@
 import React from 'react'
 import Title from '../layouts/Title'
-import { projectOne, projectTwo, projectThree, projectFour, projectFive, projectSix, projectSeven, projectEight, projectNine } from "../../assets/index";
+import { projectOne, projectTwo, projectThree, projectFour, projectFive, projectSix, projectSeven, projectEight, projectNine ,projectTen} from "../../assets/index";
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -16,6 +16,39 @@ const Projects = () => {
         />
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14">
+                 
+        <ProjectsCard
+          title="Blogging SaaS application"
+          des="This is a SaaS using Next.js, Kinde-Auth, Supabase, Prisma, Stripe, and Tailwind CSS."
+          src={projectSeven}
+          githubLink="https://github.com/paulobidinma/BlogMarshal"
+          websiteLink="https://blog-marshal-coral.vercel.app/"
+        />
+        
+        <ProjectsCard
+          title="Car Rental"
+          des="This is a website for renting cars built with ReactJS, Vite, Bootstrap and TailwindCss."
+          src={projectFour}
+          githubLink="https://github.com/paulobidinma/React-Car-Rental"
+          websiteLink="https://react-car-rental-ochre.vercel.app/"
+        />
+        
+        <ProjectsCard
+          title="Trading Analysis Terminal"
+          des="The terminal delivers real-time and historical financial market data with advanced tools for traders and investors, empowering informed decisions and market opportunities."
+          src={projectTen}
+          // githubLink="https://github.com/paulobidinma/BlogMarshal"
+          websiteLink="https://www.figma.com/design/2xGqppek5XjcwdqgkGH4SH/X-Capital?node-id=0-1&t=ZKAYP2P2cfqoGOzo-1"
+        />
+
+        <ProjectsCard
+          title="Invoice Platform"
+          des="This is a Invoice Platform using Next.js, Mailtrap, Auth.js, Tailwind"
+          src={projectThree}
+          githubLink="https://github.com/paulobidinma/InvoiceMarshal"
+          websiteLink="https://invoice-marshal.vercel.app/"
+        />
+
         <ProjectsCard
           title="Netflix Clone"
           des="This is a website for a luxury travel agency built with ReactJS, Vite and TailwindCss."
@@ -30,22 +63,6 @@ const Projects = () => {
           src={projectTwo}
           githubLink="https://github.com/paulobidinma/NextJS-Ecommerce-Website"
           websiteLink="https://next-js-ecommerce-website-eight.vercel.app/"
-        />
-        
-        <ProjectsCard
-          title="Invoice Platform"
-          des="This is a Invoice Platform using Next.js, Mailtrap, Auth.js, Tailwind"
-          src={projectThree}
-          githubLink="https://github.com/paulobidinma/InvoiceMarshal"
-          websiteLink="https://invoice-marshal.vercel.app/"
-        />
-
-        <ProjectsCard
-          title="Car Rental"
-          des="This is a website for renting cars built with ReactJS, Vite, Bootstrap and TailwindCss."
-          src={projectFour}
-          githubLink="https://github.com/paulobidinma/React-Car-Rental"
-          websiteLink="https://react-car-rental-ochre.vercel.app/"
         />
 
         <ProjectsCard
@@ -62,14 +79,6 @@ const Projects = () => {
           src={projectSix}
           githubLink="https://github.com/paulobidinma/Car-Showcase-Website"
           websiteLink="https://car-showcase-website-theta.vercel.app/"
-        />
-
-        <ProjectsCard
-          title="Blogging SaaS application"
-          des="This is a SaaS using Next.js, Kinde-Auth, Supabase, Prisma, Stripe, and Tailwind CSS."
-          src={projectSeven}
-          githubLink="https://github.com/paulobidinma/BlogMarshal"
-          websiteLink="https://blog-marshal-coral.vercel.app/"
         />
 
         <ProjectsCard
