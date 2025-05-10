@@ -34,8 +34,8 @@ const Projects = () => {
         />
         
         <ProjectsCard
-          title="Trading Analysis Terminal"
-          des="The terminal delivers real-time and historical financial market data with advanced tools for traders and investors, empowering informed decisions and market opportunities."
+          title="Trading Analysis Terminal(UI/UX design)"
+          des="This Figma design features a terminal with real-time and historical market data, offering tools to help traders and investors make informed decisions."
           src={projectTen}
           // githubLink="https://github.com/paulobidinma/BlogMarshal"
           websiteLink="https://www.figma.com/design/2xGqppek5XjcwdqgkGH4SH/X-Capital?node-id=0-1&t=ZKAYP2P2cfqoGOzo-1"
