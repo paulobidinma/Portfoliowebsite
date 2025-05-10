@@ -51,7 +51,7 @@ const Projects = () => {
 
         <ProjectsCard
           title="Netflix Clone"
-          des="This is a website for a luxury travel agency built with ReactJS, Vite and TailwindCss."
+          des="This is a clone of the netflix landing page after signing in built with ReactJS, Vite and TailwindCss."
           src={projectOne}
           githubLink="https://vercel.com/paul-obidinmas-projects/netflix-clone"
           websiteLink="https://clone-vert-nu.vercel.app/"
