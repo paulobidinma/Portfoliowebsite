@@ -62,7 +62,7 @@ const Projects = () => {
           des="This is a full stack ecommerce website built with NextJS, Tailwindcss and MongoDB"
           src={projectTwo}
           githubLink="https://github.com/paulobidinma/NextJS-Ecommerce-Website"
-          websiteLink="https://next-js-ecommerce-website-eight.vercel.app/"
+          websiteLink="https://next-amazona-v2-final.vercel.app/"
         />
 
         <ProjectsCard
