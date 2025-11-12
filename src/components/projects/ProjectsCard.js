@@ -10,7 +10,7 @@ const ProjectsCard = ({ title, des, src, githubLink, websiteLink }) => {
           <img
             className="w-full h-60 object-cover group-hover:scale-110 duration-300 cursor-pointer"
             src={src}
-            alt="project image"
+            alt="project"
           />
         </a>
       </div>
