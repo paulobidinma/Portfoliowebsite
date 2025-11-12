@@ -70,7 +70,7 @@ const Projects = () => {
           des="This is a website for banking built with Next.js, TypeScript, Appwrite and TailwindCss."
           src={projectFive}
           githubLink="https://github.com/paulobidinma/BankingApp"
-          websiteLink="https://banking-app-sage.vercel.app/"
+          websiteLink="https://horizon-banking-kohl.vercel.app/"
         />
 
         <ProjectsCard
